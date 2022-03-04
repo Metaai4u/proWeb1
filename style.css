@@ -1,0 +1,42 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav {
+  width: 300px;
+  text-align: center;
+}
+.nav > a{
+  display: block;
+  padding: 20px;
+}
+.indiv{
+  position: relative;
+}
+.indiv p{
+  display: block;
+  margin: 0;
+  padding: 20px;
+}
+.indiv > ul{
+  position: absolute;
+  left: 300px;
+  top: -15px;
+  width: 200px;
+  text-align: left;
+  display: none;
+}
+.indiv a{
+  display: block;
+  padding: 10px;
+}
+.indiv:hover ul{
+  display: block;
+}
+a:hover{
+  color: dodgerblue;
+}
+.indiv p:hover{
+  color: dodgerblue;
+}
